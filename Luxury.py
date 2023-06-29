@@ -1,3 +1,4 @@
+import os, sys
 os.system('git pull')
 print('Enjoy Your Eid ')
 exit()

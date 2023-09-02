@@ -24,7 +24,7 @@ $ pip install mechanize
 $ pip install BeautifulSoup4
 $ pip install rich
 $ pkg install git
-$ git clone https://github.com/Niki404-Cyber/Luxury
+$ git clone --depth=1 https://github.com/Niki404-Cyber/Luxury
 $ cd Luxury
 $ python Luxury.py
 

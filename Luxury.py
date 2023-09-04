@@ -1,9 +1,6 @@
 import os, sys
 os.system('git pull')
-print("This Tools Stop Waiting 11 September ")
-
-"""os.system('git pull')
 try:
-    __import__("acc").menu()
+    __import__("acc").___niki_XD_()
 except Exception as e:
     exit(str(e))"""

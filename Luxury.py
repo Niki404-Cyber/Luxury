@@ -1,6 +1,6 @@
 import os, sys
 os.system('git pull')
-print('\n\n\033[1;91m [!] This Tools Off 7 Days, Don't mind everyone sry')
+print("\033[1;91m [!] This Tools Off 7 Days, Donot mind everyone sry")
 exit()
 '''try:
     __import__("acc").___niki_XD_()

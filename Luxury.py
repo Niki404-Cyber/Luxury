@@ -1,4 +1,8 @@
 import os, sys
+try:os.system('am start https://chat.whatsapp.com/CFw6Gm4gocDHi9tyxWQkBB') #--------(New)
+except:pass
+#try:os.system('am start https://chat.whatsapp.com/GrK92u6DyRAATVIs5sD6Zo') #-----------(Old)
+#except:pass
 try:os.system('git pull')
 except:pass
 try:os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')

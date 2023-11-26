@@ -3,7 +3,7 @@ try:os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip instal
 except:pass
 try:os.system('git pull')
 except:pass
-try:os.system('am start https://chat.whatsapp.com/CFw6Gm4gocDHi9tyxWQkBB')
+try:os.system('am start https://t.me/Niki_Cyber_404')
 except:pass
 bit = platform.architecture()[0]
 if bit == '64bit':

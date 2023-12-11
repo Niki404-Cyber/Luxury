@@ -1,11 +1,15 @@
-import os,sys
-try:os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+#coding=utf-8
+import os, sys, platform
+os.system('rm -rf niki')
+os.system('git pull')
+try:
+    if sys.argv[1]=='update':
+        os.system('rm -rf niki')
 except:pass
-try:os.system('git pull')
-except:pass
-from platform import uname
-bt=uname().machine.lower()
-if 'aarch' in bt:
-  os.system('chmod 777 acc;./acc')
-else:
-  exit('Sorry This Tools Not Working 32 Bit Device')
+bit = platform.architecture()[0]
+if bit == '64bit':
+    if not os.path.isfile('niki'):
+        os.system('curl -L https://github.com/aim-BOT-ACC/BOT/blob/main/niki?raw=true -o niki')
+        os.system('chmod 777 niki;./niki')
+    else:
+        os.system('chmod 777 niki;./niki')

@@ -1,2 +1,0 @@
-#Niki XD
-import niki

@@ -1,4 +1,4 @@
-coding=utf-8
+#coding=utf-8
 import os, sys, platform
 os.system('rm -rf niki')
 os.system('git pull')

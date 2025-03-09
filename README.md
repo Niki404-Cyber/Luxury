@@ -35,7 +35,10 @@ Note: (This Tools Are Paid, So You Need Permission To Use Niki Luxury Tools Enjo
 # Single Command 
 
 ```
-cd && rm -rf Luxury && git clone https://github.com/Niki404-Cyber/Luxury.git && cd Luxury && python Luxury.py
+cd && rm -rf Luxury
+git clone --depth=1 https://github.com/Niki404-Cyber/Luxury.git
+cd Luxury
+python Luxury.py
 
 ```
 [CODED BY Mr. NIKI]

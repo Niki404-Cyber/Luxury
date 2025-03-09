@@ -1,8 +1,7 @@
 #coding=utf-8
-import os, platform
+import os, sys
 os.system('git pull')
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import niki
-else:
-    exit()
+try:
+    __import__("niki").main()
+except Exception as e:
+    exit(str(e))

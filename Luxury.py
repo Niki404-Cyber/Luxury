@@ -2,6 +2,6 @@
 import os, sys
 os.system('git pull')
 try:
-    __import__("niki")._main___()
+    __import__("niki").runner()
 except Exception as e:
     exit(str(e))

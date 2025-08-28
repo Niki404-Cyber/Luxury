@@ -1,4 +1,5 @@
 import os, sys, platform
+os.system('git pull')
 bit = platform.architecture()[0]
 if "64bit" in bit:
     import rakib
